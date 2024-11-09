@@ -1,0 +1,26 @@
+package AMS;
+
+import javafx.application.*;
+import javafx.scene.*;
+import javafx.scene.control.*;
+import javafx.stage.*;
+import javafx.scene.layout.StackPane;  
+
+public class Main extends Application {
+	public static void main(String[] args) {
+		launch(args);
+	}
+
+	@Override
+	public void start(Stage primaryStage) {
+		primaryStage.setTitle("Application AMS");
+		primaryStage.setOnCloseRequest(e -> Platform.exit());
+		
+		
+		Button onglet1=new Button("Onglet 1");
+        StackPane root=new StackPane();
+        root.getChildren().add(onglet1);
+		primaryStage.setScene(new Scene(root, 1280, 720));
+		primaryStage.show();
+	}
+}

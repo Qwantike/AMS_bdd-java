@@ -1,0 +1,57 @@
+package Entities;
+
+import java.util.Date;
+
+import Exceptions.MesureTypeException;
+
+public class Achat {
+
+	private static int increment = 0;
+	private int id, produitId;
+	private double quantite, prixUnitaireAchat;
+	private String mesure;
+	private Fournisseur fournisseur;
+	private Date dateAchat, datePeremption;
+	
+	public Achat(int produitId, double quantite, double prixUnitaireAchat, String mesure, Fournisseur fournisseur, Date dateAchat, Date datePeremption) {
+		this.id = Achat.increment;
+		Achat.increment++;
+		this.produitId = produitId;
+		this.quantite = quantite;
+		this.prixUnitaireAchat = prixUnitaireAchat;
+		this.mesure = mesure;
+		this.fournisseur = fournisseur;
+		this.dateAchat = dateAchat;
+		this.datePeremption = datePeremption;
+	}
+	
+	public int getId() {
+		return id;
+	}
+	public int getProduitId() {
+		return produitId;
+	}
+	public int getQuantite() {
+		return quantite;
+	}
+	public double getPrixUnitaireAchat() {
+		return prixUnitaireAchat;
+	}
+	public String getMesure() {
+		return mesure;
+	}
+	public Fournisseur getFournisseur() {
+		return fournisseur;
+	}
+	public Date getDateAchat() {
+		return dateAchat;
+	}
+	public Date getDatePeremption() {
+		return datePeremption;
+	}
+	
+	private void validateMesure(String mesure) throws MesureTypeException {
+		if(mesure != "unité" || mesure != "kg") throw new MesureTypeException("Mesure du produit incompatible !");
+		
+	}
+}

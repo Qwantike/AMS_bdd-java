@@ -1,0 +1,6 @@
+package AMS;
+
+public class Produit {
+	private int id, numLotAchat, prixVenteActuel;
+	private String nom, description, categorie;
+}

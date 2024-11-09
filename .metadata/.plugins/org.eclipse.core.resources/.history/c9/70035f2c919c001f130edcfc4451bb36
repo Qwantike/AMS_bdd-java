@@ -1,0 +1,14 @@
+package Database;
+
+import java.sql.*;
+
+public class ConnectDatabase {
+	
+	public static void main(String[] args) throws ClassNotFoundException {
+		String url = "";
+		String username = "";
+		String password = "";
+		
+		
+	}
+}

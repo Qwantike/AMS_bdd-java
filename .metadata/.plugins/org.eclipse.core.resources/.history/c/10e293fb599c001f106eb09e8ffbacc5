@@ -1,0 +1,8 @@
+package AMS;
+
+public class Achat {
+
+	private static int increment = 0;
+	private int id;
+	private Fournisseur fournisseur;
+}

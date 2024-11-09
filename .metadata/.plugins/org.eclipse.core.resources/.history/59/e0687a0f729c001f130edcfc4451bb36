@@ -1,0 +1,12 @@
+/**
+ * 
+ */
+/**
+ * 
+ */
+module AMS {
+	requires javafx.controls;
+    requires javafx.fxml;
+    requires transitive javafx.graphics;
+    exports AMS;
+}

@@ -1,0 +1,5 @@
+package AMS;
+
+class ProductNameLengthException extends Exception {
+
+}

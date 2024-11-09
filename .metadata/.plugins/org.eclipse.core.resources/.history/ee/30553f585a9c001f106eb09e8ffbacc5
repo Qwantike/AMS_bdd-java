@@ -1,0 +1,27 @@
+package AMS;
+
+import java.util.Date;
+
+public class Achat {
+
+	private static int increment = 0;
+	private int id, quantite;
+	private Fournisseur fournisseur;
+	private Date dateAchat, datePeremption;
+	
+	public int getId() {
+		return id;
+	}
+	public int getQuantite() {
+		return quantite;
+	}
+	public Fournisseur getFournisseur() {
+		return fournisseur;
+	}
+	public Date getDateAchat() {
+		return dateAchat;
+	}
+	public Date getDatePeremption() {
+		return datePeremption;
+	}
+}

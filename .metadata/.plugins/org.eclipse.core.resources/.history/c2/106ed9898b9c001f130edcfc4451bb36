@@ -1,0 +1,13 @@
+package Entities;
+
+import java.util.Date;
+
+public class Contrat {
+	private static int increment = 0;
+	
+	private int id, fournisseurId, quantiteMin;
+	private Date dateDebut, dateFin;
+	private double prixFixe;
+	
+	
+}

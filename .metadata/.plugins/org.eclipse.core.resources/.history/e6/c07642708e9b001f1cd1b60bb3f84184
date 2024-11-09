@@ -1,0 +1,20 @@
+package AMS;
+
+public class Produit {
+	private static int increment;
+	private int id, numLotAchat, prixVenteActuel;
+	private String nom, description, categorie;
+	
+	public Produit(int id, int numLotAchat, int prixVenteActuel, String nom, String description, String categorie) {
+		super();
+		if(!Produit.increment) Produit.increment = 0;
+		this.id = id;
+		this.numLotAchat = numLotAchat;
+		this.prixVenteActuel = prixVenteActuel;
+		this.nom = nom;
+		this.description = description;
+		this.categorie = categorie;
+	}
+	
+	
+}

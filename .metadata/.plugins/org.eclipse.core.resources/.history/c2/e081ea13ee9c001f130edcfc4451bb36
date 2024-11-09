@@ -1,0 +1,8 @@
+package Database;
+
+import java.util.List;
+
+public abstract class ListAll<U> {
+	
+	public abstract List<U> listAll();
+}

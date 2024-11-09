@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="AMS.ProductNameLengthException"/>
+    <fullyQualifiedTypeName name="com.sun.tools.classfile.Exceptions_attribute"/>
+    <fullyQualifiedTypeName name="Exceptions.ProductNameLengthException"/>
+    <fullyQualifiedTypeName name="Exceptions.MesureTypeException"/>
+    <fullyQualifiedTypeName name="entities.Produit"/>
+    <fullyQualifiedTypeName name="java.sql.PreparedStatement"/>
+    <fullyQualifiedTypeName name="java.sql.Connection"/>
+    <fullyQualifiedTypeName name="java.sql.ResultSet"/>
+    <fullyQualifiedTypeName name="java.sql.SQLException"/>
+    <fullyQualifiedTypeName name="database.ConnectDatabase"/>
+    <fullyQualifiedTypeName name="database.dataAccessObject.VenteDAO"/>
+    <fullyQualifiedTypeName name="database.databaseInterface.ListAll"/>
+    <fullyQualifiedTypeName name="javafx.scene.control.ListView"/>
+</qualifiedTypeNameHistroy>

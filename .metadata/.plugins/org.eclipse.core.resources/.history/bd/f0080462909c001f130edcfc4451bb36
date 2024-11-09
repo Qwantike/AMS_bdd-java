@@ -1,0 +1,12 @@
+/**
+ * 
+ */
+/**
+ * 
+ */
+module Main {
+	requires javafx.controls;
+    requires javafx.fxml;
+    requires transitive javafx.graphics;
+    exports Main;
+}

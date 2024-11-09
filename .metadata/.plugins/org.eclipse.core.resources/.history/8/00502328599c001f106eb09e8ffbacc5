@@ -1,0 +1,6 @@
+package AMS;
+
+public class Achat {
+
+	private int id;
+}

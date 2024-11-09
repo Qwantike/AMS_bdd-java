@@ -1,0 +1,13 @@
+/**
+ * 
+ */
+package database.dataAccessObject;
+
+import database.databaseInterface.ListAll;
+
+/**
+ * 
+ */
+public class ProduitDAO implements ListAll<U> {
+
+}

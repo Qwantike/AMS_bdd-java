@@ -1,0 +1,8 @@
+package database.databaseInterface;
+
+import java.util.List;
+
+public interface ListAll<U> {
+	
+	public static List<U> listAll();
+}

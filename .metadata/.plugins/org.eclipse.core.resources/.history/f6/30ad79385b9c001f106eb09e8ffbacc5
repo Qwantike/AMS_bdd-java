@@ -1,0 +1,15 @@
+package AMS;
+
+import java.util.Date;
+
+public class Vente {
+	private int idProduit, prixDuMoment;
+	Date dateAchat;
+	
+	public Vente(int idProduit, int prixDuMoment, Date dateAchat) {
+		super();
+		this.idProduit = idProduit;
+		this.prixDuMoment = prixDuMoment;
+		this.dateAchat = dateAchat;
+	}
+}

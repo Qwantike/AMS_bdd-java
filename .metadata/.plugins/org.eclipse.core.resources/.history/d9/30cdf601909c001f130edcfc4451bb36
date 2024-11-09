@@ -1,0 +1,17 @@
+/**
+ * 
+ */
+/**
+ * 
+ */
+module Main {
+	requires javafx.controls;
+    requires javafx.fxml;
+    requires transitive javafx.graphics;
+    exports Main;
+}
+
+module Database {
+	requires java.sql;
+	exports Database;
+}

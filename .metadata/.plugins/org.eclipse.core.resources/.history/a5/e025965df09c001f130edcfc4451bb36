@@ -1,0 +1,9 @@
+package database.databaseInterface;
+
+import java.sql.SQLException;
+import java.util.List;
+
+public interface ListAll<U> {
+	
+	public List<U> listAll();
+}

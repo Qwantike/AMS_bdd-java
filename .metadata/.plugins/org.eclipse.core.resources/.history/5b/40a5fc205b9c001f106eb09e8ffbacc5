@@ -1,0 +1,8 @@
+package AMS;
+
+import java.util.Date;
+
+public class Vente {
+	private int idProduit, prixDuMoment;
+	Date dateAchat;
+}

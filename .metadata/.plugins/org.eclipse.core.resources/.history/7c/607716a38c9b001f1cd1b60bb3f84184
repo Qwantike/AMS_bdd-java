@@ -1,0 +1,9 @@
+package AMS;
+
+import javafx.*;
+
+public class Main extends Application {
+	public static void main(String[] args) {
+		
+	}
+}

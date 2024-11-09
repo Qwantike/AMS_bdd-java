@@ -1,0 +1,28 @@
+/**
+ * 
+ */
+package database.dataAccessObject;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import database.databaseInterface.ListAll;
+import entities.Produit;
+
+/**
+ * 
+ */
+public class ProduitDAO implements ListAll<Produit> {
+
+	@Override
+	public List<Produit> listAll() {
+		// TODO Auto-generated method stub
+		
+		List<Produit> listProduits = new ArrayList<>();
+		
+		String query = "SELECT ..."
+		
+		return null;
+	}
+
+}

@@ -1,0 +1,9 @@
+/**
+ * 
+ */
+/**
+ * 
+ */
+module AMS {
+	requires javafx.graphics;
+}

@@ -1,0 +1,47 @@
+package AMS;
+
+import javafx.application.*;
+import javafx.scene.*;
+import javafx.scene.control.*;
+import javafx.stage.*;
+import javafx.scene.layout.*;  
+
+public class Main extends Application {
+	public static void main(String[] args) {
+		launch(args);
+	}
+
+	@Override
+    public void start(Stage primaryStage) {
+        primaryStage.setTitle("Application AMS");
+        primaryStage.setOnCloseRequest(e -> Platform.exit());
+
+        // Création de la barre de menu
+        MenuBar menuBar = new MenuBar();
+        Menu menuFile = new Menu("Fichier");
+        MenuItem menuItemExit = new MenuItem("Quitter");
+        menuItemExit.setOnAction(e -> Platform.exit());
+        menuFile.getItems().add(menuItemExit);
+        menuBar.getMenus().add(menuFile);
+
+        // Création des onglets
+        TabPane tabPane = new TabPane();
+        
+        Tab tab1 = new Tab("Onglet 1");
+        Tab tab2 = new Tab("Onglet 2");
+        Tab tab3 = new Tab("Onglet 3");
+
+        // Ajout de contenu aux onglets
+        tab1.setContent(new Label("Contenu de l'onglet 1"));
+        tab2.setContent(new Label("Contenu de l'onglet 2"));
+        tab3.setContent(new Label("Contenu de l'onglet 3"));
+
+        tabPane.getTabs().addAll(tab1, tab2, tab3);
+
+        // Mise en place de la mise en page
+        VBox vbox = new VBox(menuBar, tabPane);
+        Scene scene = new Scene(vbox, 1280, 720);
+        primaryStage.setScene(scene);
+        primaryStage.show();
+    }
+}
