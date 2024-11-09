@@ -1,0 +1,4 @@
+Mettre à jour/ajouter les fichiers modifiés : git add .
+Mettre à jour/ajouter un fichier spécifique :git add chemin/vers/fichier
+Valider avec un commit : git commit -m "Votre message de commit"
+Push les modifications sur github : git push origin main
