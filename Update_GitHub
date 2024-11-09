@@ -2,3 +2,12 @@ Mettre à jour/ajouter les fichiers modifiés : git add .
 Mettre à jour/ajouter un fichier spécifique :git add chemin/vers/fichier
 Valider avec un commit : git commit -m "Votre message de commit"
 Push les modifications sur github : git push origin main
+
+Lorsque tu push, le mdp doit être un PAT (Personal Access Token)
+Pour créer un PAT : 
+Cliquer sur ta photo, aller dans settings, puis dans le menu à gauche tout en bas developper settings, puis personal access tokens et en générer un 
+
+Si ta branche s'appel master : git checkout main ou master pour vérifier le nom
+modifier pour main : git branch -m main
+
+
